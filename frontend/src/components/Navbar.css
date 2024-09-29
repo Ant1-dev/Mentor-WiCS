@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff; /* Navbar background color */
+    background-color: rgba(0, 0, 0, 0); /* Navbar background color */
     padding: 10px 20px;
     color: white;
   }
@@ -24,7 +24,7 @@
   }
   
   .navbar-links a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px; /* Adjust font size */
   }

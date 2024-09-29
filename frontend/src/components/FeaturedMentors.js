@@ -2,22 +2,40 @@ import React, {useState} from 'react'
 import './FeaturedMentors.css'
 
 function FeaturedMentors() {
+
     return (
         <div className="featured-mentors">
-            <h2>Featured Mentors</h2>
-            <div className="mentor-cards">
-                {/* Example Mentor Card */}
-                <div className="mentor-card">
-                    <h3>Mentor Name 1</h3>
-                    <p>Specialization 1</p>
+        <div className="mentor-cards">
+            <div className="mentor-card1">
+                <div className="circular-frame">
+                    <img src="/jannice-mentor.jpg" alt="Mentor" className="circular-image" />
                 </div>
-                <div className="mentor-card">
-                    <h3>Mentor Name 2</h3>
-                    <p>Specialization 2</p>
+                <div>
+                    <h3>Jannice Waterson</h3>
+                    <p className="mentor-description">A self-made entrepreneur, she launched a nonprofit organization that provides coding workshops for underrepresented women in tech.</p>
                 </div>
-                {/* Repeat for more mentors... */}
+            </div>
+            <div className="mentor-card1">
+                <div className="circular-frame">
+                    <img src="/candace-mentor.jpg" alt="Mentor" className="circular-image" />
+                </div>
+                <div>
+                    <h3>Candace Parker</h3>
+                    <p className="mentor-description">A self-made entrepreneur, she launched a nonprofit organization that provides coding workshops for underrepresented women in tech.</p>
+                </div>
+            </div>
+            <div className="mentor-card1">
+                <div className="circular-frame">
+                    <img src="/frederica-mentor.jpg" alt="Mentor" className="circular-image" />
+                </div>
+                <div>
+                    <h3>Jannice Waterson</h3>
+                    <p className="mentor-description">A self-made entrepreneur, she launched a nonprofit organization that provides coding workshops for underrepresented women in tech.</p>
+                </div>
             </div>
         </div>
+    </div>
+
     )
 }
 

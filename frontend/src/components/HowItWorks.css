@@ -3,6 +3,9 @@
 .how-it-works {
     padding: 40px 20px;
     text-align: center;
+    /* margin-top: -300px; */
+
+    background-color: blueviolet;
   }
   
   .steps {

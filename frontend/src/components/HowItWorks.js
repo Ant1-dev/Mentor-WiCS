@@ -17,6 +17,7 @@ function HowItWorks() {
                 <div className="step">
                     <h3>Start Learning</h3>
                     <p>Engage in meaningful conversations and grow your skills.</p>
+
                 </div>
             </div>
         </div>

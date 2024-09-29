@@ -1,19 +1,59 @@
-
 .featured-mentors {
-    padding: 40px 20px;
-  }
+  padding: 40px 20px;
+}
+
+.mentor-cards {
+  display: flex;
+  justify-content: space-around; /* Space out the cards */
+  flex-wrap: wrap; /* Wrap cards to the next line */
+}
+
+.mentor-card {
+  width: 30%;          /* Adjust the card size */
+  height: 300px;      /* Set a fixed height for the card */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+.mentor-card1 {
+  width: 30%;          /* Adjust the card size */
+  height: 300px;      /* Set a fixed height for the card */
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for a 3D effect */
+}
+
+
+
+
+.circular-frame {
+  width: 150px;                 /* Set the desired width for the frame */
+  height: 150px;                /* Set the desired height for the frame */
+  border: 5px solid #dee2e6;   /* Frame border */
+  border-radius: 50%;          /* Make the frame circular */
+  overflow: hidden;             /* Hide overflow of the image */
+  display: flex;                /* Center the image inside the frame */
+  justify-content: center;      /* Center horizontally */
+  align-items: center;          /* Center vertically */
   
-  .mentor-cards {
-    display: flex;
-    justify-content: space-around; /* Space out the cards */
-    flex-wrap: wrap; /* Wrap cards to the next line */
-  }
-  
-  .mentor-card {
-    width: 30%; /* Adjust the card size */
-    margin: 10px;
-    padding: 15px;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    text-align: center;
-  }
+
+}
+
+.circular-image {
+    width: 150px; /* Set a larger fixed width for the images */
+    height: 150px; /* Set a larger fixed height for the images */
+    border-radius: 50%; /* Optional: Make images circular if desired */
+    object-fit: cover; /* Ensures the image covers the dimensions while maintaining aspect ratio */
+}
